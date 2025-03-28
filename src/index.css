@@ -3,7 +3,6 @@ html, body {
   font-family: Inter;
 }
 
-
 .header {
   display: flex;
   height: 55px;
@@ -20,4 +19,61 @@ html, body {
 
 .header--text {
   color: white;
+}
+
+.entry--article {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem auto;
+  width: 75%;
+}
+
+.entry--main-image {
+  height: 168px;
+  width: 125px;
+  border-radius: .5rem;
+}
+
+.entry--summary {
+  margin: 1rem;
+}
+
+.entry--top-line {
+  display: flex;
+  gap: 4px;
+}
+
+.entry--marker {
+  width: 7px;
+  height: 9px;
+}
+
+.entry--location {
+  margin: 0;
+  font-size: .75rem;
+  text-transform: uppercase;
+  color: #2B283A;
+}
+
+.entry--link {
+  font-size: .8rem;
+  color: #918E9B;
+  margin-left: .5rem;
+}
+
+.entry--title {
+  font-size: 1.625;
+  margin-top: .5rem;
+}
+
+.entry--date {
+  font-size: .8rem;
+  font-weight: bold;
+  margin-bottom: .3rem;
+}
+
+.entry--description {
+  font-size: .8rem;
+  color: #2B283A;
+  margin-top: .3rem;
 }
