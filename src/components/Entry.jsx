@@ -4,7 +4,10 @@ export default function Entry() {
   return (
     <>
       <article className="entry--article">
-        <img className="entry--main-image" src="https://scrimba.com/links/travel-journal-japan-image-url" alt="Mount Fuji"/>
+        <div className="entry--image-container">
+          <img className="entry--main-image" src="https://scrimba.com/links/travel-journal-japan-image-url" alt="Mount Fuji"/>
+
+        </div>
         <div className="entry--summary">
           <div className="entry--top-line">
             <img className="entry--marker" src={marker} alt="" />

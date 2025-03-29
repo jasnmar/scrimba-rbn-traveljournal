@@ -24,14 +24,23 @@ html, body {
 .entry--article {
   display: flex;
   flex-direction: row;
+  gap: 1rem;
   margin: 1rem auto;
   width: 75%;
 }
 
-.entry--main-image {
+.entry--image-container {
   height: 168px;
   width: 125px;
   border-radius: .5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.entry--main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
 }
 
 .entry--summary {
